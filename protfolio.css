@@ -1,0 +1,235 @@
+body{
+    background-color: rgba(248, 236, 236, 0.899);
+}
+
+header{
+    position: fixed;
+    background-color: #07abe1;
+    width: 100%;
+    padding-top: 30px; 
+    padding-bottom: 20px;
+    top: -20px;
+    text-align: center;
+    word-spacing: 50px;
+    text-transform: uppercase;
+    right: 0px;
+    left: 0px;
+    z-index: 999;
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline lightgreen;
+
+}
+
+section{
+    position:relative;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5px;
+    top: 70px;
+    text-align: center;
+    font-style:unset;
+    box-shadow: 10px 10px 10px white;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #c9d7fa;
+}
+
+.d1{
+    position: relative;
+    top: 60px;
+    padding: 10px ;
+    box-shadow: 10px 10px 10px white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    background-color: #c9d7fa;
+}
+
+.d2{
+    position: relative;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: 900;
+    font-weight: 800;
+    font-style:unset; 
+    top: 10px;   
+}
+.d3{
+    position:relative;
+    border-radius: 50% ;
+    border: 2px solid pink;
+    width: 150px;
+    height: 150px;
+   display:inline; 
+} 
+
+.span{
+    position:relative;
+    display: inline;
+    bottom: 70px;
+    left: 30px;
+}
+.d4{
+    position: relative;
+    top: 50px;
+    padding: 20px ;
+    box-shadow: 10px 10px 10px  white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    background-color: #c9d7fa;
+}
+
+.p{
+    position:relative;
+    text-transform: capitalize;
+    font-style:unset;
+    font-weight: 800;
+    font-size: 20px;
+    top: -20px;
+}
+table,td,th{
+    border: 1px solid;
+    padding: 10px;
+}
+table{
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    bottom: 30px;
+}
+th{
+    background-color: rgb(51, 138, 230);
+}
+.d5{
+    position: relative;
+    top: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    background-color: #c9d7fa;
+}
+
+.d6{
+    text-transform: capitalize;
+    font-style: unset;
+    font-weight: 900;
+    font-size: 20px;
+}
+.d7{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(252, 245, 245);
+    display: inline-block;
+}
+.p1{
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center; 
+}
+.d8{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(252, 245, 245);
+    display: inline-block;  
+}
+.d9{
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(252, 245, 245);
+}
+.d10{
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px rgb(244, 241, 241);
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    display: block;
+    background-color: #c9d7fa;
+   
+}
+.d11{
+    font-weight: 900;
+    font-size: 20px;
+    font-style:unset;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea{
+  float: left;
+  width: 95%;
+  margin-top: 10px;
+  padding: 20px;
+  display: block;
+  }
+
+  input[type=Submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 15px;
+  }
+
+  footer{
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color: #07abe1 ;
+    width:98%;
+    padding: 18px;
+    display:inline-block;
+    top: 40px;
+  }
